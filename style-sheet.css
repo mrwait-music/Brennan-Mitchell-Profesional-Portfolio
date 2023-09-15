@@ -1,24 +1,69 @@
-.heading {
-    adding for no reason
+:root {
+    font-family: Helvetica, Arial;
 }
 
 
-nav {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #cdff9c;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(images/galaxy-website.jpeg);
+    color: rgb(253, 253, 253);
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.header h1 {
     display: inline-block;
-    display: right;
-    background-color: grey;
-    width: 100%;
-
+    font-size: 48px;
 }
 
-
-.links li {
-    display: inline;
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
-    list-style: none;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 
+}
 
+.header div ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
 
+.header div ul li {
+    display: inlinfle-block;
+    margin-left: 25px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header div .ProfileImage image {
+    border-radius: 50%;
+}
+
+.header-background-image {
     
 }
+
