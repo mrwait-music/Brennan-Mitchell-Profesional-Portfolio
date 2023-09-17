@@ -23,7 +23,6 @@ body {
     color: rgb(253, 253, 253);
     display: flex;
     flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
   justify-content: space-evenly;
 }
@@ -90,12 +89,13 @@ a {
     line-height: 1.2;
     text-indent: 50px;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 100px;
     background-color: aliceblue;
     opacity: 3;
-    margin-left: 100px;
-    margin-right: 100px
+    /* margin-left: 100px;
+    margin-right: 100px */
 }
+
 
 .mapOf {
     text-align: center;
@@ -112,7 +112,7 @@ height: auto;
 
 .Programs {
     background-color: aliceblue;
-    margin: 100px;
+    margin: 50px 100px 100px;
 }
 
 .software {
@@ -126,7 +126,7 @@ height: auto;
 }
 
 #Projects {
-    margin: 200px 100px 75px;
+    margin: 100px 100px 75px;
     background-color: aliceblue;
     color: black;
     text-align: left;
@@ -146,8 +146,6 @@ height: auto;
     justify-content: space-around;
     height: 150px;
 }
-
-
 
 @media screen {
     
