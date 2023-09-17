@@ -11,6 +11,7 @@
 
 body {
     background-color: #ffffff;
+    background-image: url(images/planets-website.webp);
 }
 
 .header {
@@ -51,7 +52,6 @@ body {
 }
 
 .header div ul li {
-    display: inlinfle-block;
     margin-left: 25px;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -67,19 +67,68 @@ a {
     height: 50px;
 }
 
-#Skills {
-    display: inline-block;
+#Skills  {
+    color: black;
     padding-top: 10px;
-    list-style-type: circle;
+    margin-left: 50%;
+    margin-right: 50%;
+    list-style-type: square;
+    /* display: block; */
+    background-color: aliceblue;
 }
+
+.div .Skillful {
+    background-color: aliceblue;
+
+}
+
 
 #About-Me {
-    background-color: ;
+    line-height: 1.2;
+    text-indent: 50px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aliceblue;
+    opacity: 3;
+    margin-left: 100px;
+    margin-right: 100px
 }
 
-.mapOf h1 {
+.mapOf {
     text-align: center;
+    color: aliceblue;
 }
-.section .mapSection .map {
-padding-right: 200px;
+
+.map {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: auto;
+}
+
+.Programs {
+    background-color: aliceblue;
+}
+
+#Projects {
+    margin: 200px 100px 75px;
+    background-color: aliceblue;
+    color: black;
+    
+    text-align: center;
+    line-height: 50px;
+}
+
+#Projects a {
+    color: rgb(255, 0, 0);
+}
+
+#Contact {
+    background-color: aliceblue;
+    margin-top: 100 px;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
 }
