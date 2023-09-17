@@ -28,7 +28,6 @@ body {
   justify-content: space-evenly;
 }
 
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,6 +41,10 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.header img:hover {
+    transform: scale(1.5);
 }
 
 .header div ul {
@@ -135,10 +138,17 @@ height: auto;
 }
 
 #Contact {
-    background-color: aliceblue;
+    background-color: rgb(38, 131, 213);
     margin-top: 100 px;
     text-align: center;
     display: flex;
     justify-content: end;
     justify-content: space-around;
+    height: 150px;
+}
+
+
+
+@media screen {
+    
 }
