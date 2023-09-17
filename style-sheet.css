@@ -109,14 +109,24 @@ height: auto;
 
 .Programs {
     background-color: aliceblue;
+    margin: 100px;
+}
+
+.software {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.software img {
+    width: 200px;
+    height: 200px;
 }
 
 #Projects {
     margin: 200px 100px 75px;
     background-color: aliceblue;
     color: black;
-    
-    text-align: center;
+    text-align: left;
     line-height: 50px;
 }
 
